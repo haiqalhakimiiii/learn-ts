@@ -17,3 +17,14 @@ printCourse(title, subtitle, lessonsCount);
 function printCourse(title, subtitle, lessonsCount) {
     var fullTitle = title + subtitle;
 }
+// primitive types: object
+var course = {
+    title: "Typescript bootcamp",
+    subtitle: "Learn the language fundamentals, build practical projects",
+    lessonsCount: 10,
+    author: {
+        firstName: "Vasco",
+        lastName: "Cavalheiro"
+    }
+};
+console.log("Type of course is " + typeof course);
